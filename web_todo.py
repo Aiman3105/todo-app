@@ -56,5 +56,3 @@ for index, einkaufen in enumerate(einkaufsliste):
 st.text_input(label="", placeholder="Add a Product..",
               on_change=add_einkaufen, key="new_einkaufen")
 
-
-st.session_state
